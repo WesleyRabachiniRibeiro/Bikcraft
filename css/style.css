@@ -15,6 +15,7 @@
 
 /* Home */
 @import './home/main.css';
+@import './home/tecnology.css';
 
 /* Bicicletas */
 @import "./bikes/bike-list.css";
