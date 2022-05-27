@@ -1,0 +1,92 @@
+:root{
+    --color-primary: #ffffff;
+    --color-secondary: #b2b2b2;
+    --color-tertiary: #ffbb00;
+
+    --color-quaternary: #000000;
+    --color-quinary: #111111;
+    --color-senary: #2e2e2e;
+    --color-quinary: #404040;
+    --color-senary: #595959;
+    --color-septenary: #717171;
+    --color-octonary: #9C9C9C;
+    --color-nonary: #B2B2B2;
+    --color-denary: #CCCCCC;
+    --color-eleventh: #DEDEDE;
+    --color-thirteenth: #EDEDED;
+    --color-fourteenth: #F7F7F7;
+
+    --color-fifteenth: #332200;
+    --color-sixteenth: #664400;
+    --color-seventeenth: #A66F00;
+    --color-eighteenth: #E4A30B;
+}
+
+
+.text-primary{
+    color: var(--color-primary);
+}
+
+.text-secondary{
+    color: var(--color-secondary);
+}
+
+.text-tertiary{
+    color: var(--color-tertiary);
+}
+
+.text-quaternary{
+    color: var(--color-quaternary);
+}
+
+.text-quinary{
+    color: var(--color-quinary);
+}
+
+.text-senary{
+    color: var(--color-senary);
+}
+
+.text-septenary{
+    color: var(--color-septenary);
+}
+
+.text-octonary{
+    color: var(--color-octonary);
+}
+
+.text-nonary{
+    color: var(--color-nonary);
+}
+
+.text-denary{
+    color: var(--color-denary);
+}
+
+.text-eleventh{
+    color: var(--color-eleventh);
+}
+
+.text-twelfth{
+    color: var(--color-twelfth);
+}
+
+.text-thirteenth{
+    color: var(--color-thirteenth);
+}
+
+.text-fourteenth{
+    color: var(--color-fourteenth);
+}
+
+.text-fifteenth{
+    color: var(--color-fifteenth);
+}
+
+.text-sixteenth{
+    color: var(--color-sixteenth);
+}
+
+.text-seventeenth{
+    color: var(--color-seventeenth);
+}
