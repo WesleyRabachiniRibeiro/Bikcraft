@@ -7,8 +7,9 @@
 /* Colors */
 @import './utilities/colors.css';
 
-/* Header */
+/* Header & Footer*/
 @import './global/header.css';
+@import './global/footer.css';
 
 /* Components */
 @import './utilities/components.css';
@@ -16,6 +17,11 @@
 /* Home */
 @import './home/main.css';
 @import './home/tecnology.css';
+@import './home/partners.css';
+@import './home/comment.css';
 
 /* Bicicletas */
 @import "./bikes/bike-list.css";
+
+/* Insurance*/
+@import './insurance/insurance.css';

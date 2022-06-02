@@ -5,19 +5,32 @@
     margin: 0 auto;
 }
 
-.btn-primary{
+.btn-primary, .btn-secondary{
     display: inline-block;
     padding: 16px 32px;
-    background: linear-gradient(#ffbf00, #f2a50c);
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     text-transform: uppercase;
     color: var(--color-fifteenth);
     font: 600 1.125/1.35 "Poppins", sans-serif;
+    width: max-content;
+}
+
+.btn-primary{
+    background: linear-gradient(#ffbf00, #f2a50c);
 }
 
 .btn-primary:hover{
     background: linear-gradient(#ffb60d, #e59317);
+}
+
+.btn-secondary{
+    background: var(--color-senary);
+    color: var(--color-fourteenth);
+}
+
+.btn-secondary:hover{
+    background: var(--color-septenary);
 }
 
 @media (max-width: 600px){
