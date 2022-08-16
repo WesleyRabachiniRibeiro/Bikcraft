@@ -1,0 +1,39 @@
+.advantage-bg {
+    background-color: var(--color-quaternary);
+    --padding: 120px;
+}
+.advantage {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+
+.advantage h2 {
+    margin-bottom: 60px;
+}
+
+.advantage ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    gap: 40px 80px;
+}
+
+.advantage h3, .advantage img {
+     margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+    .advantage-bg {
+        --padding: 60px;
+    }
+    .advantage{
+        padding-top: var(--padding);
+        padding-bottom: var(--padding);
+    }
+    .advantage h2{
+        margin-bottom: 40px;
+    }
+
+    .advantage ul {
+        gap: 20px;
+    }
+}

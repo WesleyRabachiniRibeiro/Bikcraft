@@ -14,6 +14,8 @@
     color: var(--color-sixteenth);
     font: 600 1.125rem/1.33 "Poppins", sans-serif;
     width: max-content;
+    border: none;
+    cursor: pointer;
 }
 
 .btn-primary, .btn-tertiary{
@@ -81,6 +83,7 @@
 
 .title{
     margin-bottom: 4px;
+    background: url('../../img/dec/top-right.svg') no-repeat top right 20px;
 }
 
 @media (max-width: 800px){

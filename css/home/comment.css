@@ -1,7 +1,7 @@
 .comment{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var( --color-tertiary);
+    background: var( --color-tertiary);
     overflow: hidden;
 }
 
@@ -15,6 +15,7 @@
 .comment-content{
     padding: 40px 40px 80px 80px;
     align-self: end;
+    background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 40px right 40px;
 }
 
 .comment-content p {
@@ -40,6 +41,12 @@
 
 .comment p::after{
     content: "”";
+}
+
+@media (min-width:1200px) {
+    .comment img {
+        max-height: 520px;
+    }
 }
 
 @media (max-width:800px) {
